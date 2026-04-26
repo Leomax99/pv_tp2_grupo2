@@ -8,6 +8,7 @@ Dionicio Rodrigo Ezequiel / Dionicio-Rodrigo
 Rita Melina Cruz Benavidez / rmelinacruzb  
 Lucas Darío Joaquín Mamaní / Lucas4414
 
+
 ## Parte I (Ejercicios del 1 al 18)
 
 ### Operaciones Básicas de JavaScript [1-8]
@@ -21,8 +22,9 @@ Lucas Darío Joaquín Mamaní / Lucas4414
 3. **Titulo**\
    Descripción
 
-4. **Titulo**\
-   Descripción
+4. **Area del perimetro de un rectangulo**\
+   Se declaran dos variables numéricas que representan los lados del rectángulo que apartir de estos valores se calcula el área utilizando la fórmula `lado1 * lado2` y el perímetro con la expresión `2 * (lado1 + lado2)`.Los resultados se muestran por consola mediante `console.log()`, utilizando template strings para incluir los valores calculados en el mensaje.  
+
 
 5. **Conversion a segundos**\
    Creamos una función llamada `conversion()`la cual recibe un número y devuelve el número multiplcado por 60. Esta función nos deja pasar de minutos y luego a segundos.\
@@ -45,8 +47,8 @@ Lucas Darío Joaquín Mamaní / Lucas4414
    > !Hola Liliana Flores!.
    > !Bienvenido/a a Programación Visual!
 
-10. **Titulo**\
-    Descripción
+10. **Ingreso de números y cálculo de promedio**\
+   Se solicita al usuario la cantidad de números que desea ingresar mediante `prompt()`, convirtiendo el valor a entero con `parseInt()`. Luego, utilizando un ciclo `for`, se piden los números uno por uno, los cuales se almacenan en un array y al mismo tiempo se acumulan en una variable suma.Una vez finalizado el ingreso, se calcula el promedio dividiendo la suma total por la cantidad de números ingresados. Finalmente, se muestran en pantalla los números ingresados y el promedio utilizando `document.write()` y template strings.
 
 11. **Titulo**\
     Descripción
@@ -68,8 +70,8 @@ Lucas Darío Joaquín Mamaní / Lucas4414
 16. **Titulo**\
     Descripción
 
-17. **Titulo**\
-    Descripción
+17. **contar letra "a"**\
+    Se implementa una función flecha llamada `contarLetraA` que recibe un string como parámetro.Luego ,dentro de la función se recorre el texto carácter por carácter mediante un ciclo `for`, comparando cada uno con la letra "a" tanto en mayúscula como en minúscula. Cada vez que se encuentra una coincidencia, se incrementa un contador. El resultado final se retorna y luego se muestra en pantalla utilizando `document.write()`. El valor del texto es ingresado por el usuario mediante `prompt()` .
 
 18. **Determinar el mayor entre 2 numeros**\
     Se piden dos numeros al usuario mediante `prompt()`, convertidos a enteros con `parseInt()` y validados con `isNaN()`.Se declara una funcion llamada `calcularMayor` que recibe a numero1 y numero2 como parametros.La cual evalua si el primero numero es mayor, si el segundo es mayor o si son iguales, mostrando el mensaje con `document.write()`.Al terminar la definicion de la funcion, esta es invocada con los valores ingresados.   
