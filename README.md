@@ -7,7 +7,7 @@
 Dionicio Rodrigo Ezequiel / Dionicio-Rodrigo  
 Rita Melina Cruz Benavidez / rmelinacruzb  
 Lucas Darío Joaquín Mamaní / Lucas4414
-
+Mamani Lucas Lautaro / lucasmamani-lxl
 
 ## Parte I (Ejercicios del 1 al 18)
 
