@@ -1,0 +1,2 @@
+const integrantes = 'Rodrigo Ezequiel Dionicio, Rita Melina Cruz Benavidez, Lucas Dario Joaquin Mamani, Lucas Lautaro Mamani, Leonel Maximiliano Aramayo Estrada';
+console.log(`Somos ${integrantes} y estamos aprendiendo JavaScript.`);

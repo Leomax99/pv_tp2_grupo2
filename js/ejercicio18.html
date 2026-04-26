@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 12</title>
+  </head>
+  <body>
+    <script>
+        const numero1 =parseInt(prompt('Ingrese el primer numero:'));
+        const numero2 =parseInt(prompt('Ingrese el segundo numero:'));
+
+        const calcularMayor = (numero1, numero2) => {
+            if (isNaN(numero1) || isNaN(numero2)) {
+                document.write(`Ingrese valores validos.`);
+            }
+            else if (numero1 > numero2) {
+                document.write(`El numero mayor es ${numero1}.`);
+            }   else if (numero2 > numero1) {
+                    document.write(`El numero mayor es ${numero2}.`);
+                }   else {
+                        document.write(`Los numeros son iguales.`);
+                    }
+        };
+
+        calcularMayor(numero1, numero2);
+    </script>
+  </body>
